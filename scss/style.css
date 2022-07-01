@@ -43,6 +43,15 @@ h1 {
   color: #111111;
 }
 
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #111111;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -101,4 +110,29 @@ h1 {
   background-position-y: -90px;
   background-position-x: 20px;
   background-image: url("../assets/graphic.svg");
+}
+
+.birds-section {
+  height: 320px;
+  background-image: url("../assets/background.svg");
+  display: flex;
+  align-items: flex-end;
+}
+
+.birds-pick {
+  margin: 30px 40px;
+}
+
+.birds__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.companies-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
 }/*# sourceMappingURL=style.css.map */

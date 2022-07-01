@@ -11,13 +11,21 @@ h2{
   letter-spacing: 0.1em;
 }
 h1{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 116px;
-color: #111111;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  color: #111111;
+}
 
+h3{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #111111;
 }
 
 
@@ -37,7 +45,7 @@ color: #111111;
 
 .logo {
   display: inline-block;
- 
+
 }
 .nav__item{
   color: #555555;
@@ -45,6 +53,7 @@ color: #111111;
   padding-left: 20px;
   font-family: 'Inter';
 }
+
 .nav__item.nav__btn{
   color: #FF3998;
 }
@@ -55,13 +64,14 @@ color: #111111;
   padding-top: 162px;
   display: flex;
 }
+
 .hero__text{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-color: #555555;
-line-height: 150%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #555555;
+  line-height: 150%;
 }
 
 .hero__btn{
@@ -80,4 +90,34 @@ line-height: 150%;
   background-position-y: -90px;
   background-position-x: 20px;
   background-image: url('../assets/graphic.svg');
+}
+
+// Birds section
+
+.birds-section{
+  height: 320px;
+  background-image: url('../assets/background.svg');
+  display: flex;
+  align-items: flex-end;
+}
+
+.birds-pick{
+  margin: 30px 40px;
+}
+
+.birds__subtitle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+
+// companies section
+
+.companies-section{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
 }

@@ -1,39 +1,58 @@
 @import 'reset';
 
+// dev 
+body{
+  padding-bottom: 900px;
+}
+// .header{
+//     position: sticky;
+//   top: 0;
+// }
+
+
 // common css
 
+h1{
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 116px;
+  color: #111111;
+  margin: 0 auto;
+  padding-bottom: 34px;
+  padding-top: 10px;
+}
 h2{
   font-size: 16px;
   color: #FF3998;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Inter';
   letter-spacing: 0.1em;
-}
-h1{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 116px;
-  color: #111111;
 }
 
 h3{
-  font-family: 'Inter';
-  font-style: normal;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 48px;
   color: #111111;
+  margin: 0 auto;
 }
 
+h4{
+  color:#777777 ; 
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+h5{
+  font-weight: 400;
+  font-size: 18px;
+}
 
 
 // navigation section
 .header {
-  position: sticky;
-  top: 0;
+  padding-bottom: 38px;
+  padding-top: 40px;
 }
 
 .header .container {
@@ -53,21 +72,22 @@ h3{
   padding-left: 20px;
   font-family: 'Inter';
 }
-
 .nav__item.nav__btn{
   color: #FF3998;
 }
-
+.nav__burger{
+  display: none;
+}
 // hero section
 
 .hero .container{
   padding-top: 162px;
   display: flex;
+  padding-bottom: 45px;
 }
 
 .hero__text{
-  font-family: 'Inter';
-  font-style: normal;
+  padding-bottom: 17px;
   font-weight: 400;
   font-size: 20px;
   color: #555555;
@@ -75,7 +95,7 @@ h3{
 }
 
 .hero__btn{
-  border-radius: 30px ;
+  border-radius: 38px ;
   width: 188px;
   height: 75px;
   background-color: transparent;
@@ -101,14 +121,15 @@ h3{
   align-items: flex-end;
 }
 
+
 .birds-pick{
   margin: 30px 40px;
 }
 
 .birds__subtitle{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
+  padding-top: 25px;
+  padding-bottom: 12px;
+  font-weight: 500;
   font-size: 20px;
   line-height: 150%;
 }
@@ -119,5 +140,66 @@ h3{
 .companies-section{
   display: flex;
   justify-content: space-between;
-  padding-top: 60px;
+  padding-top: 130px;
+  padding-bottom: 110px;
 }
+
+// cards-section
+
+.card-section__mtitle{
+ padding-bottom: 25px;
+}
+
+.card-section__discr{
+  font-family: 'Inter';
+  font-size: 20px;
+  padding-bottom: 35px;
+  color: #555555;
+}
+.card-section__title a{
+  text-decoration: underline;
+}
+.cards-flex{
+  display: flex;
+  justify-content: space-between;
+}
+.cards-section__card{
+  display: block;
+  background-color: #EEEEEE;
+  width: 290px;
+  height: 400px;
+  border-radius: 22px;
+ 
+}
+.crd-section {
+  display:flex ;
+  gap: 20px;
+  justify-content: center;
+}
+
+.crd-section__aside{
+  text-align: left;
+
+}
+.crd-section__bside{
+text-align: right;
+}
+.cards-section__title{
+  color: #FF8139;
+}
+
+
+.crd-section p{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.crd-section h5{
+    color: #777777;
+}
+.crd-section h4 {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+
